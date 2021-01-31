@@ -19,9 +19,9 @@ https://github.com/peekpt/Old-Samsung-Printer-Splix-Catalina/raw/main/Splix-2.0.
 ```
 sudo cp ~/Desktop/Splix-2.0.0.mpkg/Contents/Packages/target.pkg/Contents/usr/libexec/cups/filter/* /Library/Printers/Samsung/UPD/Filters/ 
 ```
-- Copy your respective ppd file to the library renaming it without extension to "Samsung ML-1510 Series" (you need to put a "\\" before spaces)
+- Copy your respective ppd file to the library renaming it (without extension) to "Samsung ML-1510 Series" (you need to put a "\\" before spaces)
 ```
-sudo cp ~/Desktop/Splix-2.0.0.mpkg/Contents/Packages/target.pkg/Contents/usr/share/cups/model/samsung/ml1510.ppd /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1510\ Series
+sudo cp ~/Desktop/Splix-2.0.0.mpkg/Contents/Packages/target.pkg/Contents/usr/share/cups/model/samsung/ml1510.ppd /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1510\ Series
 ```
 
 - Make the file executable:
