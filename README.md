@@ -9,8 +9,10 @@ This example is for ML-1510 rename model name to yours
 ```
 https://ftp.hp.com/pub/softlib/software13/printers/SS/Print_Common_SW/Samsung_Mac_10.15_Driver_V3.92.00.dmg
 ```
-- Download splix-2.0.0 from .....
-(This is an unofficial location, but the zip does not seem to exist anymore on the official site only a source tarball)
+- Download splix-2.0.0
+```
+https://github.com/peekpt/Old-Samsung-Printer-Splix-Catalina/raw/main/Splix-2.0.0.mpkg.zip
+```
 - Unzip and move Splix-2.0.0.mpkg file to your Desktop
 
 - Open Terminal then copy pstoqpdl and rastertoqpdl files to the library:
