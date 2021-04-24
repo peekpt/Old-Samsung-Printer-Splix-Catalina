@@ -36,9 +36,10 @@ sudo chmod +x /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1510\ Series
  to:
 > *cupsFilter: "application/vnd.cups-raster 0 /Library/Printers/Samsung/UPD/Filters/rastertoqpdl"
 
-- Compress gzip the file
+- Compress gzip the file and make it readable
 ```
 sudo gzip /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1510\ Series
+sudo chmod o+r /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1510\ Series
 ```
 
 - Make a folder with the name of your model in the library
