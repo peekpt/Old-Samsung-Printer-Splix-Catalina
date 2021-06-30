@@ -30,16 +30,23 @@ sudo cp ~/Desktop/Splix-2.0.0.mpkg/Contents/Packages/target.pkg/Contents/usr/sha
 sudo chmod +x /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1510\ Series
 ```
 
-- Edit file using nano (ctrl + x to save) and change line
+- Edit file using nano 
+```
+sudo nano /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1510\ Series
+```
+- Change the line
 > *cupsFilter: "application/vnd.cups-raster 0 rastertoqpdl"
 
  to:
 > *cupsFilter: "application/vnd.cups-raster 0 /Library/Printers/Samsung/UPD/Filters/rastertoqpdl"
 
+(ctrl + x to save)...
+
+
 - Compress gzip the file and make it readable
 ```
 sudo gzip /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1510\ Series
-sudo chmod o+r /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1510\ Series
+sudo chmod o+r /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1510\ Series.gz
 ```
 
 - Make a folder with the name of your model in the library
