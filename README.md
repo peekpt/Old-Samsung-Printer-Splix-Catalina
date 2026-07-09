@@ -69,6 +69,12 @@ sudo chmod -R o+r /Library/Printers/Samsung/ML-1510
 ```
 sudo mv /Library/Printers/Samsung/ML-1510/ML-2160.icns /Library/Printers/Samsung/ML-1510/ML-1510.icns
 ```
+
+- Disable Apple to quarentine the file rastertoqpdl
+```
+sudo xattr -d com.apple.quarantine /Library/Printers/Samsung/UPD/Filters/rastertoqpdl
+```
+
 - Plug in your printer
 
 - Add printer on your system prefs and use driver "Samsung ML-1510, Splix V. 2.0.0"
