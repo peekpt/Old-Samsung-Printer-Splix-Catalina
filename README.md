@@ -1,4 +1,11 @@
-# Install an old Samsung Printer on macOS Catalina BigSur, Monterey, Sonoma using outdated Splix 2.0.0
+
+# UPDATE!!!
+# MADE AN INSTALLER APP FOR ALL THE OLD PRINTERS
+Get It HERE-> https://github.com/peekpt/samsung-printer-macos-driver
+
+
+## Old method: 
+### Install an old Samsung Printer on macOS Catalina BigSur, Monterey, Sonoma using outdated Splix 2.0.0
 
 > clp500.ppd   clp610.ppd   ml1610.ppd   ml1710.ppd   ml2010.ppd   ml2251.ppd   ml3050.ppd   scx4500.ppd  clp510.ppd   ml1510.ppd   ml1630.ppd   ml1740.ppd   ml2150.ppd   ml2510.ppd   ml3560.ppd   clp550.ppd   ml1520.ppd   ml1640.ppd   ml1750.ppd   ml2250.ppd   ml2550.ppd   scx4200.ppd 
  
